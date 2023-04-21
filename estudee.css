@@ -1,0 +1,112 @@
+.full-page{
+background-image:url("ebg.png");
+background-repeat:no-repeat;
+background-size:cover;
+margin:0;
+min-height: 680px;
+position: relative;
+background-position: center;
+}
+*
+{
+
+    margin: 0;
+
+    padding: 0;
+
+    /*box-sizing: border-box;*/
+
+}
+.sub-page
+
+{
+
+    width: 1266px;
+
+    height: 559px;
+
+    position: absolute;
+}
+
+nav
+
+{
+
+    flex: 1;
+
+    right:0;
+
+}
+
+nav ul 
+
+{
+    float:right;
+    display: inline-block;
+
+    list-style: none;
+
+}
+
+nav ul li
+
+{  
+    display: inline-block;
+
+    margin-right: -20px;
+margin-left:40px;
+    margin-top: 30px;
+min-width: 50px;
+   
+}
+nav ul li a
+
+{
+    text-decoration: none;
+
+    font-size: 20px;
+
+    color: darkblue;
+
+    font-family: sans-serif;
+ padding-right:10px;
+padding-left:10px;
+
+}
+
+nav ul li a:hover
+
+{
+
+    color: darkgreen;
+
+}
+
+
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: darkgreen ;
+}
+
+
+#down{
+    height: 300px;
+    width: 100%;
+    margin-top: 10px;
+    background:#2c7ad6;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background:darkblue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+}
+

@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>login form</title>
+<link rel="stylesheet" type="text/css" href="login.css">
+<style type="text/css">
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:calibri;
+outline:none;
+}
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+/*background:linear-gradient(-30deg,red,blue);*/
+background-image:url("lbg.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+margin:0;
+}
+</style>
+</head>
+<body>
+<div class="box">
+   <input type="checkbox"class="toggle-btn" name="">
+   <div class="signup">
+   <form action="" method="">
+   <center><h1 style="color: skyblue;padding-bottom: 10px;">Signup</h1></center>
+   <div class="input-group">
+      <span>Username:</span>
+      <input type="text" placeholder="Ex. abc123" name="" class="inp" >
+   </div>
+
+<div class="input-group">
+      <span>Password:</span>
+      <input type="password" placeholder="********" name="" class="inp" >
+   </div>
+<div class="input-group">
+      <span>Ph.no.:</span>
+      <input type="tel" id="phone" name="phone" placeholder="0123456789" class="inp" pattern="[0-9]{10}" required >
+   </div>
+
+<div class="input-group" style="margin-top:20px;">
+     <input type="submit" value="Sign Up" class="inp submit-inp" >
+   </div>
+
+
+</form>
+</div>
+<div class="login">
+<form action="" method="">
+<center><h1 style="color: skyblue;padding-bottom: 10px;">Login</h1></center>
+<div class="input-group">
+      <span>Username:</span>
+      <input type="text" placeholder="Ex. abc123" name="" class="inp" >
+   </div>
+<div class="input-group">
+      <span>Password:</span>
+      <input type="password" placeholder="********" name="" class="inp" >
+   </div>
+
+<div class="input-group" style="margin-top:20px;">
+     <input type="submit" value="Login" class="inp submit-inp" >
+   </div>
+</form>
+</div>
+</div>
+</body>
+</html>
